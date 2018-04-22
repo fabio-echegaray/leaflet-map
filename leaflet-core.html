@@ -556,7 +556,10 @@ add a marker with a popup text.
 			 * @attribute inertia-deceleration
 			 * @type number
 			 */
-			inertiaDeceleration: 3000,
+			inertiaDeceleration: {
+        type: Number,
+        value: 3000
+      },
 
 			/**
 			 * The `inertia-max-speed` attribute sets the max speed of the inertial movement, in pixels/second.
